@@ -79,6 +79,8 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 
 </div>
 
+### 📈 Business Intelligence & Visualization ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
 ---
 
 # 🎨 Aesthetic Activity Graph
