@@ -88,7 +88,8 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 
 ---
 
-## 💼 Professional Experience & Skills <div align="center"> | Domain | Skills | |--------|--------| | 🎯 **Machine Learning** | Supervised & Unsupervised Learning, Ensemble Methods, Model Tuning | | 🧠 **Deep Learning** | Neural Networks, CNNs, RNNs, Transfer Learning, GANs | | 👁️ **Computer Vision** | Object Detection, Image Classification, Segmentation | | 💬 **NLP** | Text Classification, Sentiment Analysis, Language Models | | 📊 **Data Analysis** | Statistical Analysis, Hypothesis Testing, A/B Testing | | 📈 **Visualization** | Interactive Dashboards, Storytelling with Data | </div>
+## 💼 Professional Experience & Skills 
+<div align="center"> | Domain | Skills | |--------|--------| | 🎯 **Machine Learning** | Supervised & Unsupervised Learning, Ensemble Methods, Model Tuning | | 🧠 **Deep Learning** | Neural Networks, CNNs, RNNs, Transfer Learning, GANs | | 👁️ **Computer Vision** | Object Detection, Image Classification, Segmentation | | 💬 **NLP** | Text Classification, Sentiment Analysis, Language Models | | 📊 **Data Analysis** | Statistical Analysis, Hypothesis Testing, A/B Testing | | 📈 **Visualization** | Interactive Dashboards, Storytelling with Data | </div>
 
 # 🌐 Connect With Me
 
@@ -103,26 +104,10 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 </p>
 
 ---
-## 📊 Weekly Development Breakdown 
-<!--START_SECTION:waka--> 
-<!--END_SECTION:waka-->
---- 
-<div align="center"> 
-  
+
 ### 🎓 Education 
 **Sri Lanka Institute of Information Technology (SLIIT)** *Bachelor of Science in Aritificial Inteligence* 📅 2nd Year, 2nd Semester | 🇱🇰 Sri Lanka </div> --- <div align="center"> 
-### ⚡ Fun Facts 
-🎯 I believe in the power of data to change the world 
-🚀 Always exploring the latest in AI and ML research 
-💡 Love turning complex problems into elegant solutions 
-🌱 Continuous learner, forever curious 
-☕ Powered by coffee and algorithms 
-</div> 
---- 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/> </div> <div align="center"> 
-  **"In the world of data science, the only constant is learning."** 📊🚀 [![Made with ❤️ by Chathuka](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Chathuka%20Pehesara-6366f1?style=for-the-badge)](https://github.com/Chathuka-Pehesara) 
-  ⭐️ From [Chathuka-Pehesara](https://github.com/Chathuka-Pehesara) | Last Updated: December 2025
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Thanks+for+Visiting!+🌟&fontSize=30&fontAlignY=40&section=footer" />
 </p>
