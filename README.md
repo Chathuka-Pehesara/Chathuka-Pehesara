@@ -104,7 +104,9 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 ---
 
 ### 🎓 Education 
-**Sri Lanka Institute of Information Technology (SLIIT)** *Bachelor of Science in Aritificial Inteligence* 📅 2nd Year, 2nd Semester | 🇱🇰 Sri Lanka </div> --- <div align="center"> 
+**Sri Lanka Institute of Information Technology (SLIIT)** *Bachelor of Science in Aritificial Inteligence* 📅 2nd Year, 2nd Semester | 🇱🇰 Sri Lanka </div>
+--- 
+<div align="center"> 
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Thanks+for+Visiting!+🌟&fontSize=30&fontAlignY=40&section=footer" />
