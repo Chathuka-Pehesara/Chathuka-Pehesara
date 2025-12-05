@@ -14,7 +14,6 @@
 
 <div align="center">
   
-```javascript
 const chathuka = {
   pronouns: "he" | "him",
   code: ["JavaScript", "Python", "Java", "HTML/CSS"],
