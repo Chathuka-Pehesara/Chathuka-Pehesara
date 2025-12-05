@@ -14,7 +14,7 @@ src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views
 
 <!-- Animated Intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&duration=3500&pause=1200&color=00E7FF&center=true&vCenter=true&width=900&lines=Hi!+I'm+**Chathuka+Pehesara* />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&duration=3500&pause=1200&color=00E7FF&center=true&vCenter=true&width=900&lines=Hi!+I'm+Chathuka+Pehesara+Hex+man" />
 </p>
 
 ---
