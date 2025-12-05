@@ -5,7 +5,7 @@
 
 <!-- Logo -->
 <p align="center">
-  <img src="[/Chathuka-Pehesara/assets/profile-logo.png](https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/profile-logo.jpg)" alt="Chathuka Logo" width="150" style="border-radius:18px; box-shadow: 0 12px 30px rgba(60,120,255,0.12), 0 2px 6px rgba(0,0,0,0.25); transform: translateY(-10px);">
+  <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/profile-logo.jpg" alt="Chathuka Logo" width="150" style="border-radius:18px; box-shadow: 0 12px 30px rgba(60,120,255,0.12), 0 2px 6px rgba(0,0,0,0.25); transform: translateY(-10px);">
 </p>
 
 <!-- Animated Intro -->
