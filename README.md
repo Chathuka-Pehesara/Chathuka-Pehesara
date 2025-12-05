@@ -11,7 +11,7 @@
 </div>
 
 ## 🌟 About Me
-
+```javascript
 const chathuka = {
   pronouns: "he" | "him",
   role: "Full-Stack Developer & AI Model Designer",
@@ -23,5 +23,6 @@ const chathuka = {
   currentFocus: "Building AI-enhanced web applications",
   philosophy: "Code with purpose, design with intelligence"
 };
+```
 
 <p align="center"> I'm a passionate developer who builds elegant digital solutions that blend <strong>clean design</strong> with <strong>smart functionality</strong>. I specialize in creating web applications that are both beautiful to use and powerful under the hood. </p>
