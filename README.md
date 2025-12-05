@@ -14,7 +14,6 @@
 
 ## ✨ About Me
 
-```js
 const chathuka = {
   pronouns: "he/him",
   code: ["JavaScript", "Python", "Java", "HTML/CSS"],
