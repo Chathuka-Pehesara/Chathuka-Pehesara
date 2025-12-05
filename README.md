@@ -1,65 +1,48 @@
-# 👋 Hi, I'm Chathuka Pehesara
+<!-- ============================================================ -->
+<!--            🌟 CHATHUKA PEHESARA — PREMIUM README             -->
+<!-- ============================================================ -->
 
-**Full-Stack Developer & AI Model Designer**  
-*Building intelligent solutions with clean code and smart design*
+<!-- Glassmorphism Header -->
+<p align="center">
+  <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/glass-banner.png" width="100%" alt="Header Banner"/>
+</p>
+
+<!-- Typing Title -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&center=true&vCenter=true&width=650&lines=Hi+I'm+Chathuka+Pehesara+👋;Full-Stack+Developer;AI+ML+Engineer;Crafting+Intelligent+Digital+Experiences" />
+</h1>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=10B981&height=80&section=header&text=🌟+Welcome+to+My+Profile+🌟&fontSize=28&fontAlignY=35&animation=blink" />
+</p>
 
 ---
 
-## 📖 About Me
+## 🔥 About Me
 
-I'm a passionate developer who loves creating elegant digital solutions that blend **clean design** with **smart functionality**. My focus is on building web applications that are both beautiful to use and powerful under the hood, while integrating AI where it truly adds value.
+const chathuka = {
+  pronouns: "he/him",
+  expertise: ["Full-Stack Development", "AI Engineering", "ML Model Design"],
+  code: ["JavaScript", "Python", "Java", "Go", "HTML/CSS"],
+  focus: "Building intelligent applications with real-world impact",
+  motto: "Code with Purpose, Design with Intelligence",
+  currentlyLearning: ["LLM fine-tuning", "MLOps", "Serverless AI"]
+}; 
 
-When I'm not coding, you'll find me exploring new technologies, working on side projects, or sharing knowledge with the developer community.
-
-## 🛠️ Technologies & Tools
-
-### Languages
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-
-### Frameworks & Libraries
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
-
-### Databases & Cloud
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/-ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white)
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=dark&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chathuka-Pehesara&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
-
-## 🔗 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:ChathukaPehesara02@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/Chathuka-Pehesara" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  📧 Email: ChathukaPehesara02@gmail.com<br/>
-  💼 LinkedIn: <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">Chathuka Pehesara</a>
-</p>
+<p align="center"> I’m a passionate builder who blends <strong>AI</strong>, <strong>clean UX</strong>, and <strong>scalable engineering</strong> to create polished digital experiences. </p>
+🎨 Modern Tech Stack
+Auto Dark/Light Mode Badges (Dynamic)
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,js,react,vue,tailwind,bootstrap&theme=dark" /> <img src="https://skillicons.dev/icons?i=html,css,js,react,vue,tailwind,bootstrap" /> </picture> </p> <p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,spring,nodejs,express,mongodb,mysql,postgres&theme=dark" /> <img src="https://skillicons.dev/icons?i=python,java,spring,nodejs,express,mongodb,mysql,postgres" /> </picture> </p> <p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,git,github,vercel,linux&theme=dark" /> <img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel,linux" /> </picture> </p> <p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&theme=dark" /> <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv" /> </picture> </p>
+⚡ GitHub Insights (Dynamic + Dark Mode Aware)
+<div align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=transparent&rank_icon=github&border_color=10B981" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=transparent&border_color=10B981" /> <img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=transparent&border=10B981&ring=10B981&fire=10B981" /> </div>
+🐍 Contribution Snake
+<p align="center"> <img src="https://raw.githubusercontent.com/Chathuka-Pehesara/Chathuka-Pehesara/output/github-contribution-grid-snake-dark.svg" /> </p>
+🚀 Featured Projects (3D Cards)
+<div align="center"> <a href="https://github.com/Chathuka-Pehesara/your-project-1"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chathuka-Pehesara&repo=your-project-1&theme=transparent&border_color=10B981&title_color=10B981" /> </a> <a href="https://github.com/Chathuka-Pehesara/your-project-2"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chathuka-Pehesara&repo=your-project-2&theme=transparent&border_color=10B981&title_color=10B981" /> </a> </div>
+🏆 GitHub Trophy Wall
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Chathuka-Pehesara&theme=algolia&no-bg=true&no-frame=true&margin-w=10&margin-h=10" /> </p>
+📈 Activity Graph
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&theme=github-dark-dimmed&area=true&hide_border=true&line=10B981&point=10B981" /> </p>
+🌐 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/"> <img src="https://skillicons.dev/icons?i=linkedin" width="50" /> </a> <a href="mailto:ChathukaPehesara02@gmail.com"> <img src="https://skillicons.dev/icons?i=gmail" width="50" /> </a> <a href="https://github.com/Chathuka-Pehesara"> <img src="https://skillicons.dev/icons?i=github" width="50" /> </a> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&style=for-the-badge&color=10B981" /> </p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=10B981&section=footer&text=Thanks+For+Visiting!+✨&fontAlignY=80&fontSize=30" /> </p> ```
