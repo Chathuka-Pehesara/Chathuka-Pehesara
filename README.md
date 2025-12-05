@@ -3,9 +3,8 @@
            FULL-STACK DEVELOPER | AI MODEL DESIGNER
 ======================================================== -->
 
-<!-- Logo -->
-
 <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chathuka%20Pehesara&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20AI%20%7C%20Machine%20Learning&descSize=16&descAlignY=51" width="100%"/> </div> <div align="center">
+
 <p align="center"> <img
 src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views" /> <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=flat-square&color=6366f1" alt="followers" /> <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=flat-square&color=6366f1" alt="stars" /> </p>
   
@@ -15,7 +14,7 @@ src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views
 
 <!-- Animated Intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&duration=3500&pause=1200&color=00E7FF&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Chathuka+Pehesara!;Full-Stack+Developer;AI+Model+Designer;Tech+Explorer+%7C+Problem+Solver" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&duration=3500&pause=1200&color=00E7FF&center=true&vCenter=true&width=900&lines=Hi!+I'm+**Chathuka+Pehesara* />
 </p>
 
 ---
@@ -55,7 +54,6 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 ---
 
 # 🚀 Featured Projects  
-*(Sample links — replace later)*
 
 🔹 **Sinhala Fake News Detector (AI)**  
 👉 https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector  
