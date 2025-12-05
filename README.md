@@ -5,8 +5,9 @@
 
 <!-- Logo -->
 
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chathuka%20Pehesara&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20AI%20%7C%20Machine%20Learning&descSize=16&descAlignY=51" width="100%"/> </div> <div align="center"> 
- src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views" /> <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=flat-square&color=6366f1" alt="followers" /> <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=flat-square&color=6366f1" alt="stars" /> </p>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chathuka%20Pehesara&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20AI%20%7C%20Machine%20Learning&descSize=16&descAlignY=51" width="100%"/> </div> <div align="center">
+<p align="center"> <img
+src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views" /> <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=flat-square&color=6366f1" alt="followers" /> <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=flat-square&color=6366f1" alt="stars" /> </p>
   
 <p align="center">
   <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/profile-logo.jpg" alt="Chathuka Logo" width="150" style="border-radius:18px; box-shadow: 0 12px 30px rgba(60,120,255,0.12), 0 2px 6px rgba(0,0,0,0.25); transform: translateY(-10px);">
