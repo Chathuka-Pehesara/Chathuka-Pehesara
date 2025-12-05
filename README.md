@@ -88,16 +88,6 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 
 ---
 
-## 💼 Professional Experience & Skills 
-<div align="center"> 
-| Domain                   | Skills | 
-|--------------------------| ----------------------------------------------------------------- -                                                          
-| 🎯 **Machine Learning** | Supervised & Unsupervised Learning, Ensemble Methods, Model Tuning | 
-| 🧠 **Deep Learning**    | Neural Networks, CNNs, RNNs, Transfer Learning, GANs               | 
-| 👁️ **Computer Vision**  | Object Detection, Image Classification, Segmentation               | 
-| 💬 **NLP**              | Text Classification, Sentiment Analysis, Language Models           | 
-| 📊 **Data Analysis**    | Statistical Analysis, Hypothesis Testing, A/B Testing              | 
-| 📈 **Visualization**    | Interactive Dashboards, Storytelling with Data                     | </div>
 
 # 🌐 Connect With Me
 
