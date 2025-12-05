@@ -22,11 +22,13 @@ src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views
 # 👨‍💻 About Me  
 Hi! I’m **Chathuka Pehesara** — a passionate **full-stack developer**, **AI model designer**, and tech enthusiast.  
 
-I create applications that focus on:  
-💠 Clean UI & UX  
-💠 Strong backend architecture  
-💠 AI-assisted smart features  
-💠 Real-world usability  
+<p align="left">I create applications that focus on:  </p>
+<p align="left">
+💠 Clean UI & UX<br>
+💠 Strong backend architecture<br>
+💠 AI-assisted smart features<br>
+💠 Real-world usability
+</p>
 
 I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and building my skills every day.
 
