@@ -1,12 +1,3 @@
-<!-- =======================================================
-                     🌟 CHATHUKA PEHESARA
-           FULL-STACK DEVELOPER | AI MODEL DESIGNER
-======================================================== -->
-
-<!-- Banner -->
-<p align="center">
-  <img src="https://i.imgur.com/SuYxYGd.png" width="100%" alt="Banner"/>
-</p>
 
 <!-- Logo -->
 <p align="center">
