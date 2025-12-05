@@ -1,4 +1,19 @@
+<!-- =======================================================
+                     🌟 CHATHUKA PEHESARA
+               FULL-STACK DEVELOPER | AI DESIGNER
+======================================================== -->
+
 <!-- Banner -->
+<p align="center">
+  <img src="https://i.imgur.com/9Vxwb2Q.png" width="100%" alt="GitHub Banner"/>
+</p>
+
+<!-- Logo -->
+<p align="center">
+  <img src="https://i.imgur.com/VcxzXPB.png" width="140" alt="CP Logo"/>
+</p>
+
+<!-- Typing Animation -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%2336BCF7&size=30&center=true&vCenter=true&width=900&lines=Hi+I'm+Chathuka+Pehesara!;Full-Stack+Developer+%7C+AI+Model+Designer;Tech+Enthusiast+%7C+Problem+Solver+%7C+Creator" />
 </p>
@@ -7,21 +22,21 @@
 
 ## 🚀 About Me
 
-Hi, I’m **Chathuka Pehesara** — a **full-stack web developer** and **AI model designer** who loves bringing smart ideas to life through code.  
-I build web applications that are clean, capable, and efficient — blending smooth front-end experiences with powerful back-end logic, and weaving in AI where it truly matters.
+Hi, I’m **Chathuka Pehesara** — a **full-stack web developer** and **AI model designer** who loves turning ideas into intelligent digital experiences.
 
-Tech isn’t just about problem-solving for me — it’s about creating tools that feel intuitive, thoughtful, and genuinely useful.  
-When I’m not building or designing, you’ll likely find me:
+I build applications that focus on:  
+✔ Clean UI  
+✔ Strong back-end logic  
+✔ AI-powered features  
+✔ Real-world usability  
 
-- sketching new project ideas  
-- exploring AI and emerging tech  
-- learning and improving every day  
+I love exploring new technologies, designing meaningful tools, and continuously improving my craft.  
 
-🎓 *Currently: 2nd Year, 2nd Semester*
+🎓 *Currently: 2nd Year, 2nd Semester (Undergraduate)*  
 
 ---
 
-## 🛠️ My Skills
+## 🛠️ Skills & Technologies
 
 <p>
 <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
@@ -40,13 +55,13 @@ When I’m not building or designing, you’ll likely find me:
 
 ---
 
-## 📌 Featured Projects  
-*(Sample links — you can replace later)*
+## 🔥 Featured Projects  
+*(Sample links — replace when your repos are ready)*
 
-- 🔥 **AI Fake News Detector (Sinhala)**  
+- 📰 **Sinhala Fake News Detector (AI)**  
   👉 https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector
 
-- ⚡ **Energy Forecasting with Machine Learning**  
+- ⚡ **Energy Load Forecasting ML Model**  
   👉 https://github.com/Chathuka-Pehesara/energy-forecasting-ai
 
 - 🌍 **Sri Lanka Tourism Recommender AI**  
@@ -71,6 +86,18 @@ When I’m not building or designing, you’ll likely find me:
 
 ---
 
+## 🌙 Dark / Light Theme Support
+
+**Dark Version (default)**  
+✔ Best contrast and readability  
+✔ Clean professional vibe  
+
+**Light Version**  
+👉 Switch theme in GitHub settings  
+(GitHub auto-adjusts the colors of badges & stats)
+
+---
+
 ## 🤝 Connect With Me
 
 <p align="center">
@@ -85,4 +112,6 @@ When I’m not building or designing, you’ll likely find me:
 
 ---
 
-<p align="center">✨ Thanks for visiting my profile! More projects coming soon ✨</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Thanks+for+Visiting!+🌟&fontSize=30&fontAlignY=70" />
+</p>
