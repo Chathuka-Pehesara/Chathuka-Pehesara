@@ -71,13 +71,14 @@ I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and build
 # 📊 GitHub Stats  
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight&border_radius=15&hide_border=false" height="170">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight" height="170">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=tokyonight&border_radius=15&hide_border=false" height="170">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=tokyonight" height="170">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight&border_radius=15&hide_border=false" height="170">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight" height="170">
 
 </div>
+
 
 ---
 
