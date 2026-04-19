@@ -18,12 +18,12 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="40%">
-      <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/pic1.png" alt="Chathuka Logo" width="180" style="border-radius:24px; box-shadow: 0 20px 50px rgba(99,102,241,0.25);">
+    <td align="center" width="45%">
+      <img src="https://raw.githubusercontent.com/Chathuka-Pehesara/Chathuka-Pehesara/main/assets/pic1.png" alt="Chathuka Pehesara" style="width: 100%; max-width: 350px; border-radius: 32px; box-shadow: 0 25px 50px rgba(99,102,241,0.3);">
       <br><br>
       <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=350&lines=The+Hex+Man;AI+Model+Architect;Full-Stack+Innovator;Problem+Solver" />
     </td>
-    <td align="left" width="60%">
+    <td align="left" width="55%">
       <h3>👋 Welcome to my Digital Workspace</h3>
       <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive, human-centric interfaces.</p>
       <p>Currently pursuing my BSc in <b>Artificial Intelligence</b> at SLIIT, I specialize in building scalable applications that solve real-world problems with data-driven precision.</p>
