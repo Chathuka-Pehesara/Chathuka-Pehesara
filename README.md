@@ -122,5 +122,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:a855f7&text=Building%20the%20future,%20one%20line%20at%20a%20time.%20🌟&fontSize=24&fontAlignY=40&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:a855f7&text=Building%20the%20future,%20one%20line%20at%20a%20time.%20🌟&fontSize=24&fontColor=ffffff&fontAlignY=40&section=footer" width="100%"/>
 </div>
