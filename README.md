@@ -3,112 +3,124 @@
            FULL-STACK DEVELOPER | AI MODEL DESIGNER
 ======================================================== -->
 
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chathuka%20Pehesara&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20%7C%20AI%20%7C%20Machine%20Learning&descSize=16&descAlignY=51" width="100%"/> </div> <div align="center">
-
-<p align="center"> <img
-src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views&color=6366f1&style=flat-square" alt="profile views" /> <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=flat-square&color=6366f1" alt="followers" /> <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=flat-square&color=6366f1" alt="stars" /> </p>
-  
-<p align="center">
-  <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/profile-logo.png" alt="Chathuka Logo" width="150" style="border-radius:18px; box-shadow: 0 12px 30px rgba(60,120,255,0.12), 0 2px 6px rgba(0,0,0,0.25); transform: translateY(-10px);">
-</p>
-
-<!-- Animated Intro -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&duration=3500&pause=1200&color=00E7FF&center=true&vCenter=true&width=900&lines=Hi!+I'm+Chathuka+Pehesara+(Hex+man)" />
-</p>
-
----
-
-# 👨‍💻 About Me  
-Hi! I’m **Chathuka Pehesara** — a passionate **full-stack developer**, **AI model designer**, and tech enthusiast.  
-
-<p align="left">I create applications that focus on:  </p>
-<p align="left">
-💠 Clean UI & UX<br>
-💠 Strong backend architecture<br>
-💠 AI-assisted smart features<br>
-💠 Real-world usability
-</p>
-
-I’m currently studying as a **2nd Year, 2nd Semester undergraduate** and building my skills every day.
-
----
-
-# ⚡ Tech Stack  
-
-### 🔹 **Languages**
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,python,java,r" />
-</p>
-
-### 🔹 **Frameworks & Tools**
-<p>
-<img src="https://skillicons.dev/icons?i=spring,tailwind,git,github,aws,mysql" />
-</p>
-
-### 🔹 **AI & ML**
-<p>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge">
-</p>
-
----
-
-# 🚀 Featured Projects  
-
-🔹 **Sinhala Fake News Detector (AI)**  
-👉 https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector  
-
-🔹 **Energy Load Forecasting Model**  
-👉 https://github.com/Chathuka-Pehesara/energy-forecasting-ai  
-
-🔹 **Sri Lanka Tourism Recommender AI**  
-👉 https://github.com/Chathuka-Pehesara/tourism-ai  
-
----
-
-# 📊 GitHub Stats  
 <div align="center">
-
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight" height="170">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=tokyonight" height="170">
-
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight" height="170">
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=220&section=header&text=Chathuka%20Pehesara&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Intelligence%20Designer%20%7C%20Full%20Stack%20Architect&descSize=20&descAlignY=55" width="100%"/>
 </div>
 
+<div align="center">
+  <br>
+  <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=for-the-badge&color=6366f1&logo=github" />
+  <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=for-the-badge&color=8b5cf6&logo=github-sponsors" />
+  <img src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile%20Views&color=a855f7&style=for-the-badge" />
+</div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="40%">
+      <img src="https://github.com/Chathuka-Pehesara/Chathuka-Pehesara/blob/main/assets/profile-logo.png" alt="Chathuka Logo" width="180" style="border-radius:24px; box-shadow: 0 20px 50px rgba(99,102,241,0.25);">
+      <br><br>
+      <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=350&lines=The+Hex+Man;AI+Model+Architect;Full-Stack+Innovator;Problem+Solver" />
+    </td>
+    <td align="left" width="60%">
+      <h3>👋 Welcome to my Digital Workspace</h3>
+      <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive, human-centric interfaces.</p>
+      <p>Currently pursuing my BSc in <b>Artificial Intelligence</b> at SLIIT, I specialize in building scalable applications that solve real-world problems with data-driven precision.</p>
+      <hr>
+      <ul>
+        <li>🔭 <b>Working on:</b> Advanced Biosafety AI & Neural Pattern Recognition</li>
+        <li>🌱 <b>Learning:</b> Cloud Infrastructure (AWS) & Generative AI</li>
+        <li>💬 <b>Ask me about:</b> React, TensorFlow, or why the UI design matters</li>
+        <li>⚡ <b>Motto:</b> "Code with purpose, design with empathy."</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ---
 
-# 🎨 Aesthetic Activity Graph
+<h2 align="center">🚀 My Professional Ecosystem</h2>
+
 <div align="center">
- <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&theme=tokyo-night&hide_border=true&area=true">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,r,spring,react,nextjs,vite,tailwind,aws,mysql,git,github,vscode,postman,linux" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white&style=for-the-badge">
 </div>
 
 ---
 
+<h2 align="center">💎 Featured Neural Innovations</h2>
 
-# 🌐 Connect With Me
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="33%" align="center">
+        <h4>🚨 Fake News Detector</h4>
+        <p>NLP-powered AI identifying misinformation in Sinhala language.</p>
+        <a href="https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector"><b>View Lab →</b></a>
+      </td>
+      <td width="33%" align="center">
+        <h4>⚡ Energy Forecaster</h4>
+        <p>ML models predicting national energy load patterns.</p>
+        <a href="https://github.com/Chathuka-Pehesara/energy-forecasting-ai"><b>View Lab →</b></a>
+      </td>
+      <td width="33%" align="center">
+        <h4>🏝️ Tourism Recommender</h4>
+        <p>Smart persona-based travel suggestions for Sri Lanka.</p>
+        <a href="https://github.com/Chathuka-Pehesara/tourism-ai"><b>View Lab →</b></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<h2 align="center">📊 Data-Driven Insight</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="190">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="190">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=tokyonight&hide_border=true&background=0d1117" width="80%">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117" width="100%">
+</div>
+
+---
+
+<h2 align="center">🌐 Build Something Together</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Chathuka%20Pehesara-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional%20Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   &nbsp;
   <a href="mailto:ChathukaPehesara02@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ChathukaPehesara02%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/Email-Direct%20Consultation-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </p>
 
+<div align="center">
+  <p>🎓 <b>BSc (Hons) in Artificial Intelligence</b></p>
+  <p>Sri Lanka Institute of Information Technology (SLIIT) • 2024-2028</p>
+</div>
+
 ---
 
-### 🎓 Education 
-**Sri Lanka Institute of Information Technology (SLIIT)** *Bachelor of Science in Aritificial Inteligence* 📅 2nd Year, 2nd Semester | 🇱🇰 Sri Lanka </div>
---- 
-<div align="center"> 
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Thanks+for+Visiting!+🌟&fontSize=30&fontAlignY=40&section=footer" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:a855f7&text=Building%20the%20future,%20one%20line%20at%20a%20time.%20🌟&fontSize=24&fontAlignY=40&section=footer" width="100%"/>
+</div>
