@@ -1,0 +1,58 @@
+<svg width="720" height="330" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- Python -->
+    <text x="0" y="24" font-size="16" fill="#c9d1d9">Python</text>
+    <text x="700" y="24" font-size="14" text-anchor="end" fill="#8b949e">90%</text>
+    <rect x="0" y="34" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="34" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="0.2s" values="0;648" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- JavaScript / TypeScript -->
+    <text x="0" y="74" font-size="16" fill="#c9d1d9">JavaScript / TypeScript</text>
+    <text x="700" y="74" font-size="14" text-anchor="end" fill="#8b949e">85%</text>
+    <rect x="0" y="84" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="84" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="0.4s" values="0;612" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- React -->
+    <text x="0" y="124" font-size="16" fill="#c9d1d9">React &amp; React Native</text>
+    <text x="700" y="124" font-size="14" text-anchor="end" fill="#8b949e">80%</text>
+    <rect x="0" y="134" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="134" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="0.6s" values="0;576" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- Machine Learning -->
+    <text x="0" y="174" font-size="16" fill="#c9d1d9">Machine Learning / TensorFlow</text>
+    <text x="700" y="174" font-size="14" text-anchor="end" fill="#8b949e">82%</text>
+    <rect x="0" y="184" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="184" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="0.8s" values="0;590" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- Node / MongoDB -->
+    <text x="0" y="224" font-size="16" fill="#c9d1d9">Node.js &amp; MongoDB</text>
+    <text x="700" y="224" font-size="14" text-anchor="end" fill="#8b949e">75%</text>
+    <rect x="0" y="234" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="234" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="1.0s" values="0;540" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- UI / UX -->
+    <text x="0" y="274" font-size="16" fill="#c9d1d9">UI / UX Design</text>
+    <text x="700" y="274" font-size="14" text-anchor="end" fill="#8b949e">78%</text>
+    <rect x="0" y="284" width="720" height="10" rx="5" fill="#21262d"/>
+    <rect x="0" y="284" height="10" rx="5" fill="url(#barGrad)">
+      <animate attributeName="width" begin="1.2s" values="0;562" dur="1.4s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>
