@@ -1,0 +1,124 @@
+<svg width="690" height="460" viewBox="0 0 690 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardShine" x1="-40%" y1="0" x2="0%" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-400 0; 1100 0" dur="3.2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="clipA"><rect x="0" y="0" width="330" height="130" rx="12"/></clipPath>
+    <clipPath id="clipB"><rect x="360" y="0" width="330" height="130" rx="12"/></clipPath>
+    <clipPath id="clipC"><rect x="0" y="165" width="330" height="130" rx="12"/></clipPath>
+    <clipPath id="clipD"><rect x="360" y="165" width="330" height="130" rx="12"/></clipPath>
+    <clipPath id="clipE"><rect x="0" y="330" width="330" height="130" rx="12"/></clipPath>
+    <clipPath id="clipF"><rect x="360" y="330" width="330" height="130" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Card 1: Snake venom classifier -->
+  <a href="https://github.com/Chathuka-Pehesara/snake-venom-classifier" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.1s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="0" y="0" width="330" height="130" rx="12" fill="#161b22" stroke="#a855f7" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipA)"/>
+      <text x="20" y="34" font-size="22">🐍</text>
+      <text x="52" y="32" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">Snake venom classifier</text>
+      <text x="20" y="60" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="20" dy="0">Deep-learning app that classifies snake images</tspan>
+        <tspan x="20" dy="16">as venomous or non-venomous in real time.</tspan>
+      </text>
+      <text x="20" y="112" font-family="Consolas, monospace" font-size="11" fill="#a855f7">Deep Learning · Computer Vision</text>
+      <text x="300" y="112" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+
+  <!-- Card 2: BookLink -->
+  <a href="https://github.com/Chathuka-Pehesara/BooKlink-web_mobile" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.25s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="360" y="0" width="330" height="130" rx="12" fill="#161b22" stroke="#6366f1" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="360" y="0" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipB)"/>
+      <text x="380" y="34" font-size="22">📚</text>
+      <text x="412" y="32" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">BookLink</text>
+      <text x="380" y="60" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="380" dy="0">Full-stack web &amp; mobile app connecting book</tspan>
+        <tspan x="380" dy="16">lovers through discovery and sharing.</tspan>
+      </text>
+      <text x="380" y="112" font-family="Consolas, monospace" font-size="11" fill="#818cf8">React · Node.js · MongoDB</text>
+      <text x="660" y="112" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+
+  <!-- Card 3: Sinhala fake news detector -->
+  <a href="https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.4s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="0" y="165" width="330" height="130" rx="12" fill="#161b22" stroke="#a855f7" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="165" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipC)"/>
+      <text x="20" y="199" font-size="22">🚨</text>
+      <text x="52" y="197" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">Sinhala fake news detector</text>
+      <text x="20" y="225" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="20" dy="0">NLP-powered model that identifies misinformation</tspan>
+        <tspan x="20" dy="16">written in the Sinhala language.</tspan>
+      </text>
+      <text x="20" y="277" font-family="Consolas, monospace" font-size="11" fill="#a855f7">NLP · Python · Machine Learning</text>
+      <text x="300" y="277" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+
+  <!-- Card 4: Energy forecasting AI -->
+  <a href="https://github.com/Chathuka-Pehesara/energy-forecasting-ai" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.55s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="360" y="165" width="330" height="130" rx="12" fill="#161b22" stroke="#6366f1" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="360" y="165" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipD)"/>
+      <text x="380" y="199" font-size="22">⚡</text>
+      <text x="412" y="197" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">Energy forecasting AI</text>
+      <text x="380" y="225" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="380" dy="0">ML models predicting national energy load</tspan>
+        <tspan x="380" dy="16">patterns for smarter grid planning.</tspan>
+      </text>
+      <text x="380" y="277" font-family="Consolas, monospace" font-size="11" fill="#818cf8">Time Series · ML · Forecasting</text>
+      <text x="660" y="277" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+
+  <!-- Card 5: Tourism recommender AI -->
+  <a href="https://github.com/Chathuka-Pehesara/tourism-ai" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.7s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="0" y="330" width="330" height="130" rx="12" fill="#161b22" stroke="#a855f7" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="330" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipE)"/>
+      <text x="20" y="364" font-size="22">🏝️</text>
+      <text x="52" y="362" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">Tourism recommender AI</text>
+      <text x="20" y="390" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="20" dy="0">Persona-based travel recommendation engine</tspan>
+        <tspan x="20" dy="16">tailored for exploring Sri Lanka.</tspan>
+      </text>
+      <text x="20" y="442" font-family="Consolas, monospace" font-size="11" fill="#a855f7">Recommender Systems · AI</text>
+      <text x="300" y="442" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+
+  <!-- Card 6: Decision simulator AI -->
+  <a href="https://github.com/Chathuka-Pehesara/Decision-Simulator-AI" target="_blank">
+    <g opacity="0"><animate attributeName="opacity" begin="0.85s" values="0;1" dur="0.6s" fill="freeze"/>
+      <rect x="360" y="330" width="330" height="130" rx="12" fill="#161b22" stroke="#6366f1" stroke-width="1.4">
+        <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="360" y="330" width="330" height="130" fill="url(#cardShine)" clip-path="url(#clipF)"/>
+      <text x="380" y="364" font-size="22">🎮</text>
+      <text x="412" y="362" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6e6f0">Decision simulator AI</text>
+      <text x="380" y="390" font-family="Segoe UI, sans-serif" font-size="12.5" fill="#9ca3af">
+        <tspan x="380" dy="0">Interactive simulator modeling decision trees</tspan>
+        <tspan x="380" dy="16">and outcome branching in real time.</tspan>
+      </text>
+      <text x="380" y="442" font-family="Consolas, monospace" font-size="11" fill="#818cf8">JavaScript · Simulation</text>
+      <text x="660" y="442" font-family="Segoe UI, sans-serif" font-size="12" fill="#818cf8" text-anchor="end">View →</text>
+    </g>
+  </a>
+</svg>
