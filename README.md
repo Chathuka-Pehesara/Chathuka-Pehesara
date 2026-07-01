@@ -2,10 +2,8 @@
                      🌟 CHATHUKA PEHESARA
            FULL-STACK DEVELOPER | AI MODEL DESIGNER
 ======================================================== -->
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=220&section=header&text=Chathuka%20Pehesara&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Intelligence%20Designer%20%7C%20Full%20Stack%20Architect&descSize=20&descAlignY=55" width="100%"/>
-</div>
+<img src="assets/banner.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI & ML Engineer"/>
 
 <div align="center">
   <br>
@@ -24,7 +22,9 @@
       <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=350&lines=The+Hex+Man;AI+Model+Architect;Full-Stack+Innovator;Problem+Solver" />
     </td>
     <td align="left" width="55%">
-      <h3>👋 Welcome to my Digital Workspace</h3>
+      <h3> 👋 Welcome to my Digital Workspace
+      </h3>
+      <p><img src="assets/terminal.svg" width="100%" alt="Terminal animation introducing Chathuka"/></p>
       <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive, human-centric interfaces.</p>
       <p>Currently pursuing my BSc in <b>Artificial Intelligence</b> at SLIIT, I specialize in building scalable applications that solve real-world problems with data-driven precision.</p>
       <hr>
@@ -59,29 +59,10 @@
 
 ---
 
-<h2 align="center">💎 Featured Neural Innovations</h2>
+<sub>Cards are clickable — glowing borders and a light-sweep animation play automatically.</sub>
 
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="33%" align="center">
-        <h4>🚨 Fake News Detector</h4>
-        <p>NLP-powered AI identifying misinformation in Sinhala language.</p>
-        <a href="https://github.com/Chathuka-Pehesara/sinhala-fake-news-detector"><b>View Lab →</b></a>
-      </td>
-      <td width="33%" align="center">
-        <h4>⚡ Energy Forecaster</h4>
-        <p>ML models predicting national energy load patterns.</p>
-        <a href="https://github.com/Chathuka-Pehesara/energy-forecasting-ai"><b>View Lab →</b></a>
-      </td>
-      <td width="33%" align="center">
-        <h4>🏝️ Tourism Recommender</h4>
-        <p>Smart persona-based travel suggestions for Sri Lanka.</p>
-        <a href="https://github.com/Chathuka-Pehesara/tourism-ai"><b>View Lab →</b></a>
-      </td>
-    </tr>
-  </table>
-</div>
+<img src="assets/projects.svg" width="100%" alt="Animated, clickable project cards"/>
+<br/>
 
 ---
 
