@@ -58,8 +58,7 @@
 </div>
 
 ---
-
-<sub>Cards are clickable — glowing borders and a light-sweep animation play automatically.</sub>
+<h2>💎 Featured projects </h2>
 
 <img src="assets/projects.svg" width="100%" alt="Animated, clickable project cards"/>
 <br/>
@@ -69,9 +68,13 @@
 <h2 align="center">📊 Data-Driven Insight</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="190">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="190">
+
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </div>
+
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&theme=tokyonight&hide_border=true&background=0d1117" width="80%">
