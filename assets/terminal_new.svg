@@ -6,24 +6,21 @@
       <stop offset="100%" stop-color="#1A0B33"/>
     </linearGradient>
 
-    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-
-    <filter id="shadow">
-      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#6366F1" flood-opacity="0.4"/>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12"
+        flood-color="#6366F1"
+        flood-opacity="0.18"/>
     </filter>
 
     <style>
       .title{
-        font:11px Consolas,monospace;
+        font:11px Consolas,Monaco,'Courier New',monospace;
         fill:#94A3B8;
       }
 
       .txt{
-        font:13px Consolas,monospace;
-        fill:#CBD5E1;
+        font:13px Consolas,Monaco,'Courier New',monospace;
+        fill:#E2E8F0;
       }
 
       .cyan{fill:#22D3EE;}
@@ -31,127 +28,109 @@
       .green{fill:#22C55E;}
 
       .cursor{
-        animation:blink 1s infinite;
+        animation:blink 1s steps(1) infinite;
       }
 
       @keyframes blink{
-        0%,50%{opacity:1}
-        51%,100%{opacity:0}
+        50%{opacity:0;}
       }
     </style>
-
   </defs>
 
-  <!-- Glow -->
+  <!-- Soft glow -->
   <rect
-    x="12"
-    y="12"
-    width="376"
-    height="296"
-    rx="16"
+    x="16"
+    y="16"
+    width="368"
+    height="288"
+    rx="18"
     fill="#6366F1"
-    opacity="0.15"
+    opacity="0.08"
     filter="url(#shadow)"
   />
 
   <!-- Window -->
   <rect
-    x="10"
-    y="10"
-    width="380"
-    height="300"
-    rx="14"
+    x="12"
+    y="12"
+    width="376"
+    height="296"
+    rx="18"
     fill="url(#bg)"
-    stroke="url(#border)"
-    stroke-width="1.4"
   />
 
-  <!-- Top bar -->
+  <!-- Title bar -->
   <rect
-    x="10"
-    y="10"
-    width="380"
-    height="34"
-    rx="14"
-    fill="#140824"
+    x="12"
+    y="12"
+    width="376"
+    height="38"
+    rx="18"
+    fill="#181825"
   />
 
   <rect
-    x="10"
-    y="30"
-    width="380"
-    height="14"
-    fill="#140824"
+    x="12"
+    y="32"
+    width="376"
+    height="18"
+    fill="#181825"
   />
 
-  <!-- Mac buttons -->
-  <circle cx="30" cy="27" r="5" fill="#FF5F56"/>
-  <circle cx="48" cy="27" r="5" fill="#FFBD2E"/>
-  <circle cx="66" cy="27" r="5" fill="#27C93F"/>
+  <!-- Window buttons -->
+  <circle cx="30" cy="31" r="5" fill="#FF5F56"/>
+  <circle cx="48" cy="31" r="5" fill="#FFBD2E"/>
+  <circle cx="66" cy="31" r="5" fill="#27C93F"/>
 
+  <!-- Title -->
   <text
     x="200"
-    y="29"
+    y="34"
     text-anchor="middle"
     class="title">
     chathuka@dev:~
   </text>
 
-  <!-- Content -->
+  <!-- Terminal -->
 
-  <text x="28" y="72" class="txt">
+  <text x="28" y="78" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> whoami</tspan>
   </text>
 
-  <text x="28" y="98" class="txt">
+  <text x="28" y="104" class="txt">
     &gt; Chathuka Pehesara
   </text>
 
-  <text x="28" y="128" class="txt">
+  <text x="28" y="138" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> cat</tspan> role.txt
   </text>
 
-  <text x="28" y="154" class="txt">
+  <text x="28" y="164" class="txt">
     &gt; AI Engineer / Full-Stack Developer
   </text>
 
-  <text x="28" y="184" class="txt">
+  <text x="28" y="198" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> ./build</tspan> --stack ai,web
   </text>
 
-  <text x="28" y="212" class="txt cyan">
+  <text x="28" y="224" class="cyan txt">
     [✓] Loading neural models...
   </text>
 
-  <text x="28" y="236" class="txt cyan">
+  <text x="28" y="246" class="cyan txt">
     [✓] Compiling frontend...
   </text>
 
-  <text x="28" y="260" class="txt green">
+  <text x="28" y="268" class="green txt">
     [✓] Deployment successful
   </text>
 
-  <text x="28" y="288" class="txt">
+  <text x="28" y="294" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="cursor"> _</tspan>
   </text>
-
-  <!-- Corner decorations -->
-  <path
-    d="M10 24V10H24"
-    fill="none"
-    stroke="#22D3EE"
-    stroke-width="1.5"
-    opacity="0.6"/>
-
-  <path
-    d="M376 296H390V282"
-    fill="none"
-    stroke="#22D3EE"
-    stroke-width="1.5"
-    opacity="0.6"/>
 
 </svg>
