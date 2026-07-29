@@ -1,0 +1,5 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="40" font-size="60" font-family="Georgia, serif" fill="#6366f1" opacity="0.6">"
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+</svg>
