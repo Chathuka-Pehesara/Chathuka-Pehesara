@@ -24,7 +24,7 @@
     <td align="left" width="55%">
       <h3> 👋 Welcome to my Digital Workspace
       </h3>
-      <p><img src="assets/terminal_new.svg" width="100%" alt="Terminal animation introducing Chathuka"/></p>
+      <p><img src="assets/terminal.svg" width="100%" alt="Terminal animation introducing Chathuka"/></p>
       <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive, human-centric interfaces.</p>
       <p>Currently pursuing my BSc in <b>Artificial Intelligence</b> at SLIIT, I specialize in building scalable applications that solve real-world problems with data-driven precision.</p>
       <hr>
