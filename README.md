@@ -65,22 +65,25 @@
 
 ---
 
+
 <h2 align="center">📊 Data-Driven Insight</h2>
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=tokyonight&hide_border=true"/>
-
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=nightowl&hide_border=true" />
 </div>
 
+<br />
 
 <div align="center">
-  <!-- Replaced third-party streak/activity widgets with GitHub's native contributions image to avoid external API failures -->
-  <img src="https://github.com/users/Chathuka-Pehesara/contributions" alt="Contributions" />
+  <img src="https://streak-stats.demolab.com/?user=Chathuka-Pehesara&theme=nightowl&hide_border=true" />
 </div>
 
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&theme=react-dark&hide_border=true&area=true" />
+</div>
 
 ---
 
