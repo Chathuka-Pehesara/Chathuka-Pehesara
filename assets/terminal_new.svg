@@ -1,17 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320">
 
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F0524"/>
-      <stop offset="100%" stop-color="#1A0B33"/>
-    </linearGradient>
-
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="0" stdDeviation="12"
-        flood-color="#6366F1"
-        flood-opacity="0.18"/>
-    </filter>
-
     <style>
       .title{
         font:11px Consolas,Monaco,'Courier New',monospace;
@@ -37,18 +26,6 @@
     </style>
   </defs>
 
-  <!-- Soft glow -->
-  <rect
-    x="16"
-    y="16"
-    width="368"
-    height="288"
-    rx="18"
-    fill="#6366F1"
-    opacity="0.08"
-    filter="url(#shadow)"
-  />
-
   <!-- Window -->
   <rect
     x="12"
@@ -56,79 +33,78 @@
     width="376"
     height="296"
     rx="18"
-    fill="url(#bg)"
+    fill="#170B2B"
   />
 
-  <!-- Title bar -->
+  <!-- Header -->
   <rect
     x="12"
     y="12"
     width="376"
-    height="38"
+    height="40"
     rx="18"
-    fill="#181825"
+    fill="#1F1238"
   />
 
   <rect
     x="12"
-    y="32"
+    y="34"
     width="376"
     height="18"
-    fill="#181825"
+    fill="#1F1238"
   />
 
-  <!-- Window buttons -->
+  <!-- macOS buttons -->
   <circle cx="30" cy="31" r="5" fill="#FF5F56"/>
   <circle cx="48" cy="31" r="5" fill="#FFBD2E"/>
   <circle cx="66" cy="31" r="5" fill="#27C93F"/>
 
-  <!-- Title -->
   <text
     x="200"
-    y="34"
+    y="33"
     text-anchor="middle"
     class="title">
     chathuka@dev:~
   </text>
 
-  <!-- Terminal -->
+  <!-- Content -->
 
-  <text x="28" y="78" class="txt">
+  <text x="28" y="80" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> whoami</tspan>
   </text>
 
-  <text x="28" y="104" class="txt">
+  <text x="28" y="106" class="txt">
     &gt; Chathuka Pehesara
   </text>
 
-  <text x="28" y="138" class="txt">
+  <text x="28" y="140" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> cat</tspan> role.txt
   </text>
 
-  <text x="28" y="164" class="txt">
+  <text x="28" y="166" class="txt">
     &gt; AI Engineer / Full-Stack Developer
   </text>
 
-  <text x="28" y="198" class="txt">
+  <text x="28" y="200" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="purple"> ./build</tspan> --stack ai,web
   </text>
 
-  <text x="28" y="224" class="cyan txt">
+  <text x="28" y="226" class="txt green">
     [✓] Loading neural models...
   </text>
 
-  <text x="28" y="246" class="cyan txt">
+  <text x="28" y="248" class="txt green">
     [✓] Compiling frontend...
   </text>
 
-  <text x="28" y="268" class="green txt">
+  <text x="28" y="270" class="txt green">
     [✓] Deployment successful
   </text>
 
-  <text x="28" y="294" class="txt">
+  <text x="28" y="296" class="txt">
     <tspan class="cyan">$</tspan>
     <tspan class="cursor"> _</tspan>
   </text>
