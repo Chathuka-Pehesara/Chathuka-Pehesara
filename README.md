@@ -17,15 +17,15 @@
 <table align="center">
   <tr>
     <td align="center" width="45%">
-      <img src="https://raw.githubusercontent.com/Chathuka-Pehesara/Chathuka-Pehesara/main/assets/pic1.png" alt="Chathuka Pehesara" style="width: 100%; max-width: 350px; border-radius: 32px; box-shadow: 0 25px 50px rgba(99,102,241,0.3);">
+      <img src="https://raw.githubusercontent.com/Chathuka-Pehesara/Chathuka-Pehesara/main/assets/pic1.png" alt="Chathuka Pehesara" style="width: 100%; max-width: 350px; border-radius: 32px; box-shado[...]"/>
       <br><br>
-      <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=350&lines=The+Hex+Man;AI+Model+Architect;Full-Stack+Innovator;Problem+Solver" />
+      <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=6366f1&center=true&vCenter=true&width=350&lines=The+Hex+Man;AI+Model+Architect;Full-[...]"/>
     </td>
     <td align="left" width="55%">
       <h3> 👋 Welcome to my Digital Workspace
       </h3>
       <p><img src="assets/terminal.svg" width="100%" alt="Terminal animation introducing Chathuka"/></p>
-      <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive, human-centric interfaces.</p>
+      <p>I am <b>Chathuka Pehesara</b>, a forward-thinking <b>Full-Stack Developer</b> and <b>AI Designer</b>. My goal is to bridge the gap between complex machine learning architectures and intuitive[...]</p>
       <p>Currently pursuing my BSc in <b>Artificial Intelligence</b> at SLIIT, I specialize in building scalable applications that solve real-world problems with data-driven precision.</p>
       <hr>
       <ul>
@@ -77,12 +77,10 @@
 
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Chathuka-Pehesara&amp;theme=tokyonight&amp;hide_border=true&amp;background=0d1117" width="80%">
+  <!-- Replaced third-party streak/activity widgets with GitHub's native contributions image to avoid external API failures -->
+  <img src="https://github.com/users/Chathuka-Pehesara/contributions" alt="Contributions" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;bg_color=0d1117" width="100%">
-</div>
 
 ---
 
@@ -106,5 +104,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:a855f7&text=Building%20the%20future,%20one%20line%20at%20a%20time.%20🌟&fontSize=24&fontColor=ffffff&fontAlignY=40&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6366f1,100:a855f7&text=Building%20the%20future,%20one%20line%20at%20a%20time.%20🌟&fontSize=24&fontColor=ffffff&fontA[...]"/>
 </div>
