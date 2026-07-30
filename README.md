@@ -3,7 +3,7 @@
            FULL-STACK DEVELOPER | AI MODEL DESIGNER
 ======================================================== -->
 <div align="center">
-<img src="assets/banner.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI & ML Engineer"/>
+<img src="assets/banner1.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI & ML Engineer"/>
 
 <div align="center">
   <br>
