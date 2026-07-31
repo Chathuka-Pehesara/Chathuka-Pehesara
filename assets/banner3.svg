@@ -1,0 +1,196 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+      .display { font-family: 'Space Grotesk', 'Segoe UI', sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Consolas', monospace; }
+    </style>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060B"/>
+      <stop offset="55%" stop-color="#0A0D18"/>
+      <stop offset="100%" stop-color="#0D1020"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#C9CEFB"/>
+      <stop offset="100%" stop-color="#7C5CFF"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="spotlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- seamless drifting hex field -->
+    <pattern id="hexPattern" width="70" height="80.8" patternUnits="userSpaceOnUse">
+      <polygon points="17.3,0 34.6,10 34.6,30 17.3,40 0,30 0,10" fill="none" stroke="#4A4F7A" stroke-width="1"/>
+      <polygon points="52.3,40.4 69.6,50.4 69.6,70.4 52.3,80.4 35,70.4 35,50.4" fill="none" stroke="#4A4F7A" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="70 80.8" dur="18s" repeatCount="indefinite"/>
+    </pattern>
+
+    <polygon id="hexUnit" points="17.3,0 34.6,10 34.6,30 17.3,40 0,30 0,10"/>
+    <clipPath id="badgeClip">
+      <polygon points="-91,-52.5 0,-105 91,-52.5 91,52.5 0,105 -91,52.5"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+
+  <!-- drifting hex field, whole-canvas depth layer -->
+  <rect width="1200" height="400" fill="url(#hexPattern)" opacity="0.35"/>
+
+  <!-- slow-moving spotlight for atmosphere -->
+  <ellipse cy="200" rx="380" ry="270" fill="url(#spotlight)">
+    <animate attributeName="cx" values="160;680;160" dur="16s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- foreground sparkle hexes, corner accents -->
+  <g stroke="#7C5CFF" stroke-width="1.2" fill="none">
+    <use href="#hexUnit" x="18" y="14" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3.6s" begin="0s" repeatCount="indefinite"/></use>
+    <use href="#hexUnit" x="88" y="36" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3.6s" begin="0.9s" repeatCount="indefinite"/></use>
+    <use href="#hexUnit" x="1000" y="20" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="4s" begin="0.4s" repeatCount="indefinite"/></use>
+    <use href="#hexUnit" x="1070" y="42" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="4s" begin="1.3s" repeatCount="indefinite"/></use>
+    <use href="#hexUnit" x="1030" y="320" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3.8s" begin="0.6s" repeatCount="indefinite"/></use>
+    <use href="#hexUnit" x="40" y="330" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="4.2s" begin="1.1s" repeatCount="indefinite"/></use>
+  </g>
+
+  <!-- ambient particles drifting upward -->
+  <g fill="#22D3EE">
+    <circle cx="150" cy="380" r="1.8" opacity="0"><animate attributeName="cy" values="380;10" dur="7s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="380" r="1.5" opacity="0" fill="#7C5CFF"><animate attributeName="cy" values="380;10" dur="9s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="380" r="1.8" opacity="0"><animate attributeName="cy" values="380;10" dur="8s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="380" r="1.5" opacity="0" fill="#FFB020"><animate attributeName="cy" values="380;10" dur="10s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="10s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="380" r="1.6" opacity="0" fill="#7C5CFF"><animate attributeName="cy" values="380;10" dur="7.5s" begin="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="7.5s" begin="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ambient glow behind monogram -->
+  <circle cx="215" cy="205" r="170" fill="url(#glow)">
+    <animate attributeName="r" values="150;190;150" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============ CP HEX MONOGRAM ============ -->
+  <g transform="translate(215,205)">
+
+    <!-- pulsing outer echo hex -->
+    <polygon points="-91,-52.5 0,-105 91,-52.5 91,52.5 0,105 -91,52.5"
+             fill="none" stroke="#22D3EE" stroke-width="2">
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- rotating dashed ring -->
+    <g>
+      <polygon points="-91,-52.5 0,-105 91,-52.5 91,52.5 0,105 -91,52.5"
+               fill="none" stroke="#7C5CFF" stroke-width="2.5" opacity="0.85" stroke-dasharray="7 12"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- badge core -->
+    <polygon points="-65,-37.6 0,-75.1 65,-37.6 65,37.6 0,75.1 -65,37.6"
+             fill="#0D1020" stroke="#22D3EE" stroke-width="2"/>
+
+    <!-- radar-style pulse pings from the badge center -->
+    <g clip-path="url(#badgeClip)">
+      <circle cx="0" cy="0" r="0" fill="none" stroke="#22D3EE" stroke-width="2.5">
+        <animate attributeName="r" values="0;78" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="0" fill="none" stroke="#7C5CFF" stroke-width="2">
+        <animate attributeName="r" values="0;78" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="0" y="18" text-anchor="middle" class="display" font-size="46" font-weight="700" letter-spacing="1" fill="url(#nameGrad)" filter="url(#softGlow)">CP</text>
+
+    <!-- three staggered orbiting particles -->
+    <circle r="5" fill="#FFB020">
+      <animateMotion dur="20s" repeatCount="indefinite" path="M -91,-52.5 L 0,-105 L 91,-52.5 L 91,52.5 L 0,105 L -91,52.5 Z"/>
+    </circle>
+    <circle r="4" fill="#22D3EE">
+      <animateMotion dur="20s" begin="-6.6s" repeatCount="indefinite" path="M -91,-52.5 L 0,-105 L 91,-52.5 L 91,52.5 L 0,105 L -91,52.5 Z"/>
+    </circle>
+    <circle r="4" fill="#7C5CFF">
+      <animateMotion dur="20s" begin="-13.3s" repeatCount="indefinite" path="M -91,-52.5 L 0,-105 L 91,-52.5 L 91,52.5 L 0,105 L -91,52.5 Z"/>
+    </circle>
+  </g>
+
+  <!-- ============ NAME + ROLE ============ -->
+  <g transform="translate(400,0)">
+
+    <clipPath id="nameReveal">
+      <rect x="0" y="100" width="0" height="90">
+        <animate attributeName="width" from="0" to="600" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1" keyTimes="0;1" values="0;600"/>
+      </rect>
+    </clipPath>
+    <g clip-path="url(#nameReveal)">
+      <text x="0" y="175" class="display" font-size="62" font-weight="700" letter-spacing="0.5" fill="url(#nameGrad)" filter="url(#softGlow)">
+        Chathuka Pehesara
+      </text>
+    </g>
+    <!-- typing caret that runs alongside the reveal -->
+    <rect x="0" y="128" width="4" height="52" fill="#22D3EE">
+      <animate attributeName="x" from="0" to="600" dur="1.3s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7;0.71;1" dur="1.5s" begin="1.5s" repeatCount="3"/>
+    </rect>
+
+    <text x="2" y="215" class="mono" font-size="20" fill="#8A8FA8" opacity="0">
+      $ whoami
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
+    </text>
+
+    <!-- smooth crossfading role rotator -->
+    <g class="mono" font-size="27" font-weight="500" fill="#22D3EE">
+      <text x="2" y="257" opacity="0">
+        Full-Stack Developer
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.22;0.26" dur="8s" begin="1.9s" repeatCount="indefinite"/>
+      </text>
+      <text x="2" y="257" opacity="0">
+        AI Model Architect
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.26;0.30;0.48;0.52" dur="8s" begin="1.9s" repeatCount="indefinite"/>
+      </text>
+      <text x="2" y="257" opacity="0">
+        Neural Pattern Enthusiast
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.52;0.56;0.74;0.78" dur="8s" begin="1.9s" repeatCount="indefinite"/>
+      </text>
+      <text x="2" y="257" opacity="0">
+        BSc AI @ SLIIT
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.78;0.82;1" dur="8s" begin="1.9s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <text x="2" y="308" class="display" font-size="21" font-style="italic" fill="#8A8FA8" filter="url(#softGlow)" opacity="0">
+      "Code with purpose, design with empathy."
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="2.4s" fill="freeze"/>
+    </text>
+
+    <!-- twinkling sparkles, no background glow shape -->
+    <g fill="#FFFFFF">
+      <path d="M-18,296 l2.4,5.6 5.6,2.4 -5.6,2.4 -2.4,5.6 -2.4,-5.6 -5.6,-2.4 5.6,-2.4 Z" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.15;0.22;0.3;1" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M470,292 l1.8,4.2 4.2,1.8 -4.2,1.8 -1.8,4.2 -1.8,-4.2 -4.2,-1.8 4.2,-1.8 Z" opacity="0" fill="#22D3EE">
+        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.55;0.62;0.7;1" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect x="462" y="285" width="11" height="22" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
