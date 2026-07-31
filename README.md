@@ -16,7 +16,7 @@
 
 <br>
 
-## `0x00` &nbsp; About the Hex Man
+## `0x00` &nbsp; About the CP
 
 <table>
 <tr>
