@@ -74,7 +74,7 @@ Currently reading for a **BSc (Hons) in Artificial Intelligence** at SLIIT, I bu
 
 <br />
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Chathuka-Pehesara&theme=nightowl&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Chathuka-Pehesara&theme=nightowl&hide_border=true" alt="GitHub Streak" />
 </div>
 <br />
 
