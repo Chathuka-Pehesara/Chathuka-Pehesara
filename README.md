@@ -4,7 +4,7 @@
 ======================================================== -->
 
 <div align="center">
-<img src="assets/banner2.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI Model Designer"/>
+<img src="assets/banner3.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI Model Designer"/>
 </div>
 
 <div align="center">
