@@ -59,7 +59,7 @@ Currently reading for a **BSc (Hons) in Artificial Intelligence** at SLIIT, I bu
 
 ## `0x02` &nbsp; Featured Builds
 
-<img src="assets/projects1.svg" width="100%" alt="Animated featured project cards"/>
+<img src="assets/projects2.svg" width="100%" alt="Animated featured project cards"/>
 
 <p align="center"><sub>Four builds, one hex grid — statuses and progress bars update as each one moves along.</sub></p>
 
