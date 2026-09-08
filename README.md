@@ -68,8 +68,8 @@ Currently reading for a **BSc (Hons) in Artificial Intelligence** at SLIIT, I bu
 ## `0x03` &nbsp; Data-Driven Insight
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chathuka-Pehesara&show_icons=true&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&title_color=22D3EE&icon_color=7C5CFF&text_color=E9EAF5&bg_color=0D1020" />
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chathuka-Pehesara&layout=compact&theme=nightowl&hide_border=true&title_color=22D3EE&text_color=E9EAF5&bg_color=0D1020" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chathuka-Pehesara&theme=nightowl" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chathuka-Pehesara&theme=nightowl" />
 </div>
 
 <br />
@@ -77,10 +77,6 @@ Currently reading for a **BSc (Hons) in Artificial Intelligence** at SLIIT, I bu
   <img src="https://streak-stats.demolab.com?user=Chathuka-Pehesara&theme=nightowl&hide_border=true" alt="GitHub Streak" />
 </div>
 <br />
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuka-Pehesara&theme=react-dark&hide_border=true&area=true&color=22D3EE&point=FFB020&line=7C5CFF" />
-</div>
 
 ---
 
