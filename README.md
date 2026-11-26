@@ -1,112 +1,179 @@
-<!-- =======================================================
-                     CHATHUKA PEHESARA
-           FULL-STACK DEVELOPER · AI MODEL DESIGNER
-======================================================== -->
+
+<!-- =====================================================
+     CHATHUKA PEHESARA | GITHUB PROFILE
+     Minimal · Modern · Developer-focused
+====================================================== -->
 
 <div align="center">
-<img src="assets/banner3.svg" width="100%" alt="Chathuka Pehesara — Full-Stack Developer, AI Model Designer"/>
+
+# CHATHUKA PEHESARA<span style="color:#7C5CFF">.</span>
+
+### Full-Stack Developer · AI Engineer
+
+Building intelligent systems and meaningful digital experiences.
+
+<br/>
+
+<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0D1020?style=flat-square&logo=linkedin&logoColor=22D3EE"/>
+</a>
+<a href="mailto:ChathukaPehesara02@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-0D1020?style=flat-square&logo=gmail&logoColor=7C5CFF"/>
+</a>
+<a href="https://github.com/Chathuka-Pehesara">
+  <img src="https://img.shields.io/badge/GitHub-Profile-0D1020?style=flat-square&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&style=flat-square&color=7C5CFF&label=PROFILE+VIEWS"/>
+
 </div>
 
-<div align="center">
-  <br>
-  <img src="https://img.shields.io/github/followers/Chathuka-Pehesara?label=Followers&style=for-the-badge&color=7C5CFF&logo=github&logoColor=white&labelColor=0D1020" />
-  <img src="https://img.shields.io/github/stars/Chathuka-Pehesara?label=Stars&style=for-the-badge&color=22D3EE&logo=github-sponsors&logoColor=white&labelColor=0D1020" />
-  <img src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&label=Profile+Views&color=FFB020&style=for-the-badge" />
-</div>
+---
 
-<br>
+## 01 / About Me
 
-## `0x00` &nbsp; About the CP
+I'm **Chathuka Pehesara**, an undergraduate specializing in Artificial Intelligence at the Sri Lanka Institute of Information Technology (SLIIT).
+
+I enjoy working at the intersection of software engineering and artificial intelligence — turning technical ideas into practical applications.
+
+- Currently building full-stack applications and AI-powered systems.
+- Exploring machine learning, generative AI and cloud infrastructure.
+- Interested in scalable backend architectures and thoughtful UI/UX.
+- Always learning, experimenting and building something new.
+
+> Code with purpose. Design with empathy.
+
+---
+
+## 02 / Technology Stack
+
+**Languages**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,c&theme=dark" />
+</p>
+
+**Frontend & Backend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,spring,nodejs,fastapi&theme=dark" />
+</p>
+
+**AI / Machine Learning**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark" />
+</p>
+
+**Database, Cloud & Tools**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,aws,docker,git,github,vscode,postman,linux&theme=dark" />
+</p>
+
+---
+
+## 03 / Selected Projects
+
+A few things I've been working on.
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-I'm **Chathuka Pehesara** — a full-stack developer and AI designer who thinks in **hex**: hexagonal systems, hexadecimal palettes, and the six-sided logic of good architecture. I bridge dense machine-learning models and interfaces people actually want to use.
+### 🧠 AI Customer Support Platform
 
-Currently reading for a **BSc (Hons) in Artificial Intelligence** at SLIIT, I build applications that turn data-driven precision into something usable.
+Multi-tenant AI customer support system using retrieval-augmented generation and vector search.
 
-- 🔭 **Building:** a biosafety AI classifier + a neural-pattern visual toolkit
-- 🌱 **Learning:** AWS cloud infrastructure & generative AI
-- 💬 **Ask me about:** React, TensorFlow, or why the UI details matter
-- ⚡ **Motto:** *"Code with purpose, design with empathy."*
+**Technologies**
+
+`FastAPI` `LangChain` `OpenAI` `Pinecone`
 
 </td>
-<td width="45%" valign="top">
-<img src="assets/terminal1.svg" width="100%" alt="Terminal session introducing Chathuka"/>
+<td width="50%" valign="top">
+
+### 🐍 Snake Venom Classifier
+
+An AI-based snake identification system combining image classification and an accessible species information platform.
+
+**Technologies**
+
+`Python` `TensorFlow` `FastAPI` `PWA`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ Tariff Bill Forecaster
+
+A machine-learning-powered electricity bill forecasting application designed around Sri Lankan domestic electricity tariffs.
+
+**Technologies**
+
+`Python` `FastAPI` `Next.js` `Machine Learning`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 Tea Plantation Management
+
+A full-stack plantation management platform integrating resource management, tea leaf disease detection and price prediction.
+
+**Technologies**
+
+`Spring Boot` `React` `PostgreSQL` `CNN`
+
 </td>
 </tr>
 </table>
 
 ---
 
-## `0x01` &nbsp; Professional Ecosystem
+## 04 / GitHub Activity
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,r,spring,react,nextjs,vite,tailwind,aws,mysql,git,github,vscode,postman,linux&theme=dark" />
-</div>
 
-<br>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chathuka-Pehesara&theme=github_dark"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chathuka-Pehesara&theme=github_dark"/>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Scikit--Learn-0D1020?logo=scikitlearn&logoColor=F7931E&style=for-the-badge">
-  <img src="https://img.shields.io/badge/TensorFlow-0D1020?logo=tensorflow&logoColor=FF6F00&style=for-the-badge">
-  <img src="https://img.shields.io/badge/OpenAI-0D1020?logo=openai&logoColor=E9EAF5&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Keras-0D1020?logo=keras&logoColor=D00000&style=for-the-badge">
-</div>
+<br/><br/>
 
----
+<img width="80%" src="https://streak-stats.demolab.com?user=Chathuka-Pehesara&theme=github-dark-blue&hide_border=true&background=0D1117"/>
 
-## `0x02` &nbsp; Featured Builds
-
-<img src="assets/projects2.svg" width="100%" alt="Animated featured project cards"/>
-
-<p align="center"><sub>Four builds, one hex grid — statuses and progress bars update as each one moves along.</sub></p>
-
----
-
-## `0x03` &nbsp; Data-Driven Insight
-
-<div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chathuka-Pehesara&theme=nightowl" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chathuka-Pehesara&theme=nightowl" />
-</div>
-
-<br />
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Chathuka-Pehesara&theme=nightowl&hide_border=true" alt="GitHub Streak" />
-</div>
-<br />
-
----
-
-## `0x04` &nbsp; Now Loading...
-
-<img src="assets/coding-avatar.svg" width="100%" alt="Glitch-art avatar of Chathuka coding at a desk"/>
-
-<p align="center"><sub>Hood up, headphones on, screen glow doing the rest — the Hex Man at work.</sub></p>
-
----
-
-## `0x05` &nbsp; Build Something Together
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Professional%20Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  &nbsp;
-  <a href="mailto:ChathukaPehesara02@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Direct%20Consultation-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-</p>
-
-<div align="center">
-  <p>🎓 <b>BSc (Hons) in Artificial Intelligence</b></p>
-  <p>Sri Lanka Institute of Information Technology (SLIIT) · 2024–2028</p>
 </div>
 
 ---
 
+## 05 / Beyond the Code
+
+I believe good software is more than functionality. It's about solving real problems, understanding people and creating experiences that make technology useful.
+
+Currently exploring:
+
+- Generative AI and intelligent agents
+- Cloud-native application development
+- Applied machine learning
+- Software architecture and engineering practices
+
+---
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7C5CFF,100:22D3EE&text=Building%20the%20future,%20one%20hex%20at%20a%20time.&fontSize=22&fontColor=ffffff&fontAlign=50&fontAlignY=65&animation=fadeIn"/>
+
+### Let's Build Something Meaningful.
+
+Open to interesting collaborations, engineering discussions and opportunities to build impactful products.
+
+<br/>
+
+<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">
+  <img src="https://img.shields.io/badge/LET'S_CONNECT-7C5CFF?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<sub>Designed with purpose · Built with curiosity · <b>CP ⬡</b></sub>
+
 </div>
