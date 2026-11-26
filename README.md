@@ -4,31 +4,38 @@
      Minimal · Modern · Developer-focused
 ====================================================== -->
 
+
 <div align="center">
 
-# CHATHUKA PEHESARA<span style="color:#7C5CFF">.</span>
-
-### Full-Stack Developer · AI Engineer
-
-Building intelligent systems and meaningful digital experiences.
+<p>
+  <sub>SOFTWARE ENGINEERING &nbsp; / &nbsp; ARTIFICIAL INTELLIGENCE &nbsp; / &nbsp; INNOVATION</sub>
+</p>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0D1020?style=flat-square&logo=linkedin&logoColor=22D3EE"/>
-</a>
-<a href="mailto:ChathukaPehesara02@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-0D1020?style=flat-square&logo=gmail&logoColor=7C5CFF"/>
-</a>
-<a href="https://github.com/Chathuka-Pehesara">
-  <img src="https://img.shields.io/badge/GitHub-Profile-0D1020?style=flat-square&logo=github&logoColor=white"/>
-</a>
+# CHATHUKA PEHESARA<span>.</span>
+
+### Engineering software. Exploring intelligence.
+
+<p>
+  Full-Stack Developer & AI Engineer building practical applications,<br/>
+  intelligent systems and meaningful digital experiences.
+</p>
+
+<br/>
+
+<a href="https://github.com/Chathuka-Pehesara?tab=repositories">Explore Projects ↗</a>
+&nbsp;&nbsp; / &nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">LinkedIn ↗</a>
+&nbsp;&nbsp; / &nbsp;&nbsp;
+<a href="mailto:ChathukaPehesara02@gmail.com">Contact ↗</a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Chathuka-Pehesara&style=flat-square&color=7C5CFF&label=PROFILE+VIEWS"/>
+<sub>BASED IN SRI LANKA &nbsp; · &nbsp; BSc (Hons) ARTIFICIAL INTELLIGENCE @ SLIIT</sub>
 
 </div>
+
 
 ---
 
