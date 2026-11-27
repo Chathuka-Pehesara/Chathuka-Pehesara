@@ -7,20 +7,7 @@
 
 <div align="center">
 
-<p>
-  <sub>SOFTWARE ENGINEERING &nbsp; / &nbsp; ARTIFICIAL INTELLIGENCE &nbsp; / &nbsp; INNOVATION</sub>
-</p>
-
-<br/>
-
-# CHATHUKA PEHESARA<span>.</span>
-
-### Engineering software. Exploring intelligence.
-
-<p>
-  Full-Stack Developer & AI Engineer building practical applications,<br/>
-  intelligent systems and meaningful digital experiences.
-</p>
+<img src="assets/hero.svg" width="100%" alt="Chathuka Pehesara - Developer Portfolio"/>
 
 <br/>
 
@@ -29,10 +16,6 @@
 <a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">LinkedIn ↗</a>
 &nbsp;&nbsp; / &nbsp;&nbsp;
 <a href="mailto:ChathukaPehesara02@gmail.com">Contact ↗</a>
-
-<br/><br/>
-
-<sub>BASED IN SRI LANKA &nbsp; · &nbsp; BSc (Hons) ARTIFICIAL INTELLIGENCE @ SLIIT</sub>
 
 </div>
 
