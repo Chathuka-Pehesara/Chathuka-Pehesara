@@ -5,19 +5,47 @@
 ====================================================== -->
 
 
+
+<!-- ================= HERO SECTION ================= -->
+
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Chathuka Pehesara - Developer Portfolio"/>
+<img
+  src="assets/hero.svg"
+  width="100%"
+  alt="Chathuka Pehesara | Software Engineering and Artificial Intelligence"
+/>
 
 <br/>
 
-<a href="https://github.com/Chathuka-Pehesara?tab=repositories">Explore Projects ↗</a>
-&nbsp;&nbsp; / &nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">LinkedIn ↗</a>
-&nbsp;&nbsp; / &nbsp;&nbsp;
-<a href="mailto:ChathukaPehesara02@gmail.com">Contact ↗</a>
+<a href="https://github.com/Chathuka-Pehesara?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/EXPLORE_PROJECTS-9668F5?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore Projects"
+  />
+</a>
+&nbsp;
+
+<a href="https://www.linkedin.com/in/chathuka-pehesara-5bb993398/">
+  <img
+    src="https://img.shields.io/badge/LINKEDIN-202027?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
+</a>
+&nbsp;
+
+<a href="mailto:ChathukaPehesara02@gmail.com">
+  <img
+    src="https://img.shields.io/badge/CONTACT-202027?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Contact"
+  />
+</a>
+
+<br/><br/>
 
 </div>
+
+<!-- ================= END HERO ================= -->
 
 
 ---
