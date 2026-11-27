@@ -1,434 +1,214 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="1600"
-     height="900"
-     viewBox="0 0 1600 900">
+     width="1600" height="900" viewBox="0 0 1600 900">
 
-  <defs>
-    <!-- Background -->
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#101011"/>
-      <stop offset="55%" stop-color="#09090B"/>
-      <stop offset="100%" stop-color="#141019"/>
-    </linearGradient>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1">
+    <stop stop-color="#111113"/>
+    <stop offset="1" stop-color="#09090c"/>
+  </linearGradient>
 
-    <!-- Violet illumination -->
-    <radialGradient id="purpleGlow">
-      <stop offset="0%" stop-color="#8955FF" stop-opacity=".48"/>
-      <stop offset="55%" stop-color="#6735CE" stop-opacity=".19"/>
-      <stop offset="100%" stop-color="#6735CE" stop-opacity="0"/>
-    </radialGradient>
+  <linearGradient id="purple" x2="1">
+    <stop stop-color="#a98aff"/>
+    <stop offset="1" stop-color="#7042e8"/>
+  </linearGradient>
 
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A98AFF"/>
-      <stop offset="100%" stop-color="#7042E8"/>
-    </linearGradient>
+  <linearGradient id="concrete" x2="1" y2="1">
+    <stop stop-color="#77777b"/>
+    <stop offset=".5" stop-color="#414145"/>
+    <stop offset="1" stop-color="#202024"/>
+  </linearGradient>
 
-    <!-- Concrete surfaces -->
-    <linearGradient id="concrete" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#77777A"/>
-      <stop offset="35%" stop-color="#414144"/>
-      <stop offset="100%" stop-color="#202023"/>
-    </linearGradient>
+  <linearGradient id="glass" x2="1" y2="1">
+    <stop stop-color="#9868ed" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#211331" stop-opacity=".9"/>
+  </linearGradient>
 
-    <linearGradient id="concreteLight" x1="0" y1="0" x2="0.8" y2="1">
-      <stop offset="0%" stop-color="#A0A0A2"/>
-      <stop offset="100%" stop-color="#363639"/>
-    </linearGradient>
+  <radialGradient id="glow">
+    <stop stop-color="#8855ff" stop-opacity=".5"/>
+    <stop offset="1" stop-color="#8855ff" stop-opacity="0"/>
+  </radialGradient>
 
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#8454E8" stop-opacity=".75"/>
-      <stop offset="55%" stop-color="#42246F" stop-opacity=".7"/>
-      <stop offset="100%" stop-color="#100D1A" stop-opacity=".95"/>
-    </linearGradient>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+    <path d="M80 0H0V80" fill="none"
+          stroke="#fff" stroke-opacity=".045"/>
+  </pattern>
 
-    <linearGradient id="glassLight" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#AC8AFF" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#4A287F" stop-opacity=".05"/>
-    </linearGradient>
+  <pattern id="texture" width="70" height="70" patternUnits="userSpaceOnUse">
+    <path d="M5 15L40 14M25 50L65 49"
+          stroke="#fff" stroke-opacity=".08"/>
+  </pattern>
 
-    <!-- Shadows -->
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="35"/>
-    </filter>
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="35"/>
+  </filter>
+</defs>
 
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
-      <feGaussianBlur stdDeviation="14"/>
-    </filter>
+<!-- BACKGROUND -->
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
 
-    <!-- Technical grid -->
-    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <path d="M80 0H0V80" fill="none"
-            stroke="#FFFFFF" stroke-opacity=".045" stroke-width="1"/>
-    </pattern>
+<ellipse cx="1350" cy="420" rx="420" ry="400"
+         fill="url(#glow)" filter="url(#blur)">
+  <animate attributeName="opacity"
+           values=".6;1;.6" dur="8s" repeatCount="indefinite"/>
+</ellipse>
 
-    <!-- Concrete texture -->
-    <pattern id="texture" width="110" height="110"
-             patternUnits="userSpaceOnUse">
-      <path d="M5 20L45 18 M70 45L105 43 M20 85L65 83"
-            stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/>
-      <circle cx="28" cy="49" r="1" fill="#FFFFFF" opacity=".12"/>
-      <circle cx="87" cy="90" r="1.2" fill="#FFFFFF" opacity=".1"/>
-    </pattern>
+<!-- ARCHITECTURAL BACKGROUND -->
+<path d="M1000 500L1310 240L1600 150V900H1000Z"
+      fill="#08080a"/>
 
-    <clipPath id="glassClip">
-      <polygon points="1300,255 1465,170 1600,230 1600,740 1300,740"/>
-    </clipPath>
-  </defs>
+<!-- PURPLE GLASS BUILDING -->
+<polygon points="1270,280 1480,175 1600,220 1600,740 1270,740"
+         fill="url(#glass)"/>
 
-  <!-- ==================================
-       BACKGROUND
-  =================================== -->
+<g stroke="#c8aaff" stroke-opacity=".25" fill="none">
+  <path d="M1350 220V740M1450 190V740M1550 210V740"/>
+  <path d="M1270 370H1600M1270 500H1600M1270 630H1600"/>
+</g>
 
-  <rect width="1600" height="900" fill="url(#background)"/>
-  <rect width="1600" height="900" fill="url(#grid)"/>
+<!-- MAIN CONCRETE STRUCTURE -->
+<polygon points="1170,320 1445,155 1600,190 1330,390"
+         fill="url(#concrete)"/>
 
-  <ellipse cx="1320" cy="430" rx="440" ry="380"
-           fill="url(#purpleGlow)" filter="url(#softGlow)">
-    <animate attributeName="opacity"
-             values=".65;.9;.65"
-             dur="9s" repeatCount="indefinite"/>
-  </ellipse>
+<path d="M1170 320L1445 155L1600 190"
+      stroke="#b7b7bb" stroke-opacity=".5" fill="none" stroke-width="2"/>
 
-  <!-- Background architectural atmosphere -->
-  <path d="M0 760L750 760L950 900H0Z"
-        fill="#111113"/>
+<!-- STRUCTURAL PILLAR -->
+<polygon points="1330,390 1415,335 1415,750 1330,800"
+         fill="url(#concrete)"/>
 
-  <path d="M0 0H1600V55H0Z" fill="#FFFFFF" opacity=".015"/>
+<polygon points="1415,335 1465,305 1465,715 1415,750"
+         fill="#29292d"/>
 
-  <!-- ==================================
-       ARCHITECTURAL STRUCTURE
-  =================================== -->
+<path d="M1330 390L1415 335V750L1330 800Z"
+      fill="url(#texture)"/>
 
-  <!-- Background building shadow -->
-  <path d="M1010 620L1300 265L1600 145V790L1120 900Z"
-        fill="#050506" opacity=".8"/>
+<!-- ARCHITECTURAL BRIDGE -->
+<polygon points="1120,460 1330,335 1600,390 1600,445 1330,390 1120,515"
+         fill="#626267"/>
 
-  <!-- Rear wall -->
-  <polygon points="1240,310 1465,180 1600,220 1600,700 1240,700"
-           fill="#252528" stroke="#89898C" stroke-opacity=".4"/>
+<!-- LOWER PLATFORM -->
+<polygon points="760,785 1080,620 1330,700 1010,900 650,900"
+         fill="url(#concrete)"/>
 
-  <!-- Purple glass interior -->
-  <g clip-path="url(#glassClip)">
-    <rect x="1280" y="200" width="340" height="570"
-          fill="url(#glass)"/>
+<path d="M760 785L1080 620L1330 700"
+      stroke="#aaa" stroke-opacity=".5" fill="none" stroke-width="2"/>
 
-    <rect x="1300" y="220" width="300" height="510"
-          fill="url(#glassLight)"/>
+<path d="M760 785L1010 900L1330 700"
+      fill="url(#texture)"/>
 
-    <path d="M1350 220V750 M1450 200V750 M1550 200V750"
-          stroke="#D5C4FF" stroke-opacity=".3" stroke-width="2"/>
+<!-- HUMAN SILHOUETTE -->
+<g fill="#080809">
+  <circle cx="1110" cy="516" r="8"/>
+  <path d="M1103 526Q1110 520 1117 526L1122 562L1118 579H1102L1098 562Z"/>
+  <path d="M1103 531L1094 558L1099 561L1108 540Z"/>
+  <path d="M1117 531L1125 555L1121 559L1113 541Z"/>
+  <path d="M1103 575H1110L1107 610H1102Z"/>
+  <path d="M1112 575H1119L1120 610H1115Z"/>
+</g>
 
-    <path d="M1280 350H1600 M1280 480H1600 M1280 610H1600"
-          stroke="#D5C4FF" stroke-opacity=".16"/>
+<!-- TECHNICAL FRAME -->
+<g stroke="#777" stroke-opacity=".3" fill="none">
+  <path d="M20 55H1580M20 850H1580"/>
+  <path d="M45 0V900M1550 0V900"/>
+  <path d="M0 236H1600" stroke-opacity=".08"/>
+</g>
 
-    <path d="M1330 200L1450 750 M1450 200L1570 750"
-          stroke="#FFFFFF" stroke-opacity=".045" stroke-width="25"/>
+<!-- TOP LABEL -->
+<g fill="#b8b8bc" font-family="Arial,sans-serif"
+   font-size="16" letter-spacing="5">
+  <text x="88" y="96">SOFTWARE ENGINEERING</text>
+  <text x="395" y="96">/</text>
+  <text x="430" y="96">ARTIFICIAL INTELLIGENCE</text>
+  <text x="755" y="96">/</text>
+  <text x="790" y="96">INNOVATION</text>
+</g>
 
-    <rect x="1300" y="200" width="300" height="550"
-          fill="url(#purpleGlow)" opacity=".55"/>
+<path d="M930 95H1540" stroke="#777" stroke-opacity=".5"/>
+
+<rect x="1565" y="87" width="17" height="17" fill="#9668ff">
+  <animate attributeName="opacity"
+           values=".4;1;.4" dur="3s" repeatCount="indefinite"/>
+</rect>
+
+<!-- CP IDENTITY -->
+<g transform="translate(90 185)">
+  <text x="0" y="58" fill="#d5d5d8"
+        font-family="Arial,sans-serif"
+        font-size="75" font-weight="300"
+        letter-spacing="-8">CP</text>
+
+  <path d="M148 0V75" stroke="#a78bfa" stroke-width="1.5"/>
+
+  <g fill="#afafb3" font-family="monospace"
+     font-size="15" letter-spacing="2">
+    <text x="185" y="20">BUILDING</text>
+    <text x="185" y="43">INTELLIGENT</text>
+    <text x="185" y="66">SYSTEMS</text>
   </g>
+</g>
 
-  <!-- Main architectural upper beam -->
-  <polygon points="1175,320 1440,150 1600,185 1330,390"
-           fill="url(#concreteLight)"
-           stroke="#B4B4B7" stroke-opacity=".6"/>
-
-  <path d="M1175 320L1440 150L1600 185"
-        fill="none" stroke="#D2D2D3" stroke-opacity=".5"
-        stroke-width="2"/>
-
-  <!-- Main structural pillar -->
-  <polygon points="1330,390 1415,335 1415,745 1330,800"
-           fill="url(#concrete)"/>
-
-  <polygon points="1415,335 1465,305 1465,715 1415,745"
-           fill="#29292D"/>
-
-  <path d="M1330 390L1415 335V745L1330 800Z"
-        fill="url(#texture)" opacity=".8"/>
-
-  <!-- Horizontal architectural bridge -->
-  <polygon points="1120,460 1330,335 1600,390 1600,445 1330,390 1120,515"
-           fill="#66666A"/>
-
-  <path d="M1120 460L1330 335L1600 390"
-        fill="none" stroke="#B6B6B8" stroke-opacity=".5"
-        stroke-width="2"/>
-
-  <!-- Lower architectural platform -->
-  <polygon points="760,785 1080,620 1330,700 1010,900 650,900"
-           fill="url(#concrete)"/>
-
-  <path d="M760 785L1080 620L1330 700"
-        fill="none" stroke="#A3A3A6" stroke-opacity=".45"
-        stroke-width="2"/>
-
-  <path d="M760 785L1010 900"
-        stroke="#D2D2D2" stroke-opacity=".18" stroke-width="2"/>
-
-  <path d="M760 785L1010 900L1330 700"
-        fill="url(#texture)" opacity=".7"/>
-
-  <!-- Front structural edge -->
-  <polygon points="1020,900 1330,700 1600,755 1600,900"
-           fill="#161619"/>
-
-  <path d="M1020 900L1330 700L1600 755"
-        stroke="#99999D" stroke-opacity=".4" stroke-width="2"
-        fill="none"/>
-
-  <!-- ==================================
-       HUMAN SILHOUETTE
-  =================================== -->
-
-  <ellipse cx="1110" cy="600" rx="45" ry="8"
-           fill="#000000" opacity=".65" filter="url(#shadow)"/>
-
-  <g fill="#080809">
-    <!-- Head -->
-    <circle cx="1110" cy="516" r="8"/>
-
-    <!-- Body -->
-    <path d="M1103 526
-             Q1110 520 1117 526
-             L1122 562
-             L1118 579
-             L1102 579
-             L1098 562Z"/>
-
-    <!-- Arms -->
-    <path d="M1103 531L1094 558L1099 561L1108 540Z"/>
-    <path d="M1117 531L1125 555L1121 559L1113 541Z"/>
-
-    <!-- Legs -->
-    <path d="M1103 575L1110 575L1107 610L1102 610Z"/>
-    <path d="M1112 575L1119 575L1120 610L1115 610Z"/>
-  </g>
-
-  <!-- ==================================
-       TECHNICAL DETAILS
-  =================================== -->
-
-  <g fill="none" stroke="#FFFFFF" stroke-opacity=".2">
-    <path d="M0 55H1600"/>
-    <path d="M0 850H1600"/>
-    <path d="M45 0V900"/>
-    <path d="M1550 0V900"/>
-    <path d="M920 0V900" stroke-opacity=".08"/>
-  </g>
-
-  <!-- Small architectural measurement marks -->
-  <g stroke="#A98AFF" stroke-width="2">
-    <path d="M1048 850V900"/>
-    <path d="M1050 850H1070"/>
-    <path d="M1520 850H1570"/>
-  </g>
-
-  <!-- ==================================
-       TOP IDENTITY
-  =================================== -->
-
-  <g font-family="Arial, Helvetica, sans-serif"
-     fill="#B8B8BC">
-
-    <text x="88" y="96" font-size="16"
-          letter-spacing="5">
-      SOFTWARE ENGINEERING
-    </text>
-
-    <text x="395" y="96" font-size="16"
-          letter-spacing="4">/</text>
-
-    <text x="430" y="96" font-size="16"
-          letter-spacing="5">
-      ARTIFICIAL INTELLIGENCE
-    </text>
-
-    <text x="755" y="96" font-size="16"
-          letter-spacing="4">/</text>
-
-    <text x="790" y="96" font-size="16"
-          letter-spacing="5">
-      INNOVATION
-    </text>
-  </g>
-
-  <path d="M930 95H1540"
-        stroke="#77777A" stroke-opacity=".55"/>
-
-  <rect x="1565" y="87" width="17" height="17"
-        fill="#9668FF">
-    <animate attributeName="opacity"
-             values=".45;1;.45"
-             dur="3s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- ==================================
-       CP MONOGRAM
-  =================================== -->
-
-  <g transform="translate(90 185)">
-    <text x="0" y="58"
-          font-family="Arial, sans-serif"
-          font-size="75"
-          font-weight="300"
-          letter-spacing="-8"
-          fill="#D5D5D8">CP</text>
-
-    <path d="M148 0V75"
-          stroke="#A78BFA" stroke-width="1.5"/>
-
-    <g fill="#AFAFB3"
-       font-family="monospace"
-       font-size="15"
-       letter-spacing="2">
-      <text x="185" y="20">BUILDING</text>
-      <text x="185" y="43">INTELLIGENT</text>
-      <text x="185" y="66">SYSTEMS</text>
-    </g>
-  </g>
-
-  <!-- ==================================
-       MAIN NAME
-  =================================== -->
-
-  <g font-family="Arial, Helvetica, sans-serif"
-     font-weight="700">
-
-    <text x="85" y="390"
-          font-size="105"
-          letter-spacing="-3"
-          fill="#F1F1F2">
-      CHATHUKA
-    </text>
-
-    <text x="85" y="480"
-          font-size="105"
-          letter-spacing="-4"
-          fill="url(#accent)">
-      PEHESARA.
-    </text>
-  </g>
-
-  <!-- Name underline -->
-  <path d="M88 505H175"
-        stroke="#A98AFF" stroke-width="2"/>
-
-  <!-- ==================================
-       TAGLINE
-  =================================== -->
-
-  <text x="90" y="565"
-        font-family="monospace"
-        font-size="23"
-        fill="#E2E2E5">
-    Engineering software. Exploring intelligence.
+<!-- MAIN NAME -->
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700">
+  <text x="85" y="390" font-size="105"
+        letter-spacing="-3" fill="#f1f1f2">
+    CHATHUKA
   </text>
 
-  <!-- Animated cursor -->
-  <rect x="744" y="540" width="2" height="29"
-        fill="#A98AFF">
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="85" y="480" font-size="105"
+        letter-spacing="-4" fill="url(#purple)">
+    PEHESARA.
+  </text>
+</g>
 
-  <text x="90" y="640"
-        font-family="Arial, sans-serif"
-        font-size="21"
-        fill="#A7A7AB">
+<path d="M88 505H175" stroke="#a98aff" stroke-width="2"/>
+
+<!-- TAGLINE -->
+<text x="90" y="565" font-family="monospace"
+      font-size="23" fill="#e2e2e5">
+  Engineering software. Exploring intelligence.
+</text>
+
+<rect x="744" y="540" width="2" height="29" fill="#a98aff">
+  <animate attributeName="opacity"
+           values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- DESCRIPTION -->
+<g font-family="Arial,sans-serif" font-size="21" fill="#a7a7ab">
+  <text x="90" y="640">
     Full-Stack Developer &amp; AI Engineer building practical applications,
   </text>
-
-  <text x="90" y="672"
-        font-family="Arial, sans-serif"
-        font-size="21"
-        fill="#A7A7AB">
+  <text x="90" y="672">
     intelligent systems and meaningful digital experiences.
   </text>
+</g>
 
-  <!-- ==================================
-       NAVIGATION BUTTONS
-  =================================== -->
+<!-- FOOTER DETAILS -->
+<g font-family="Arial,sans-serif" fill="#a5a5aa" font-size="16">
+  <text x="90" y="835">BASED IN SRI LANKA</text>
+  <circle cx="270" cy="830" r="3" fill="#a98aff"/>
+  <text x="295" y="835">
+    BSc (Hons) ARTIFICIAL INTELLIGENCE @ SLIIT
+  </text>
+</g>
 
-  <g font-family="Arial, sans-serif"
-     font-size="18">
+<g font-family="monospace" fill="#b9b9be"
+   font-size="14" letter-spacing="3">
+  <text x="1270" y="835">LEARN</text>
+  <text x="1360" y="835">·</text>
+  <text x="1390" y="835">BUILD</text>
+  <text x="1475" y="835">·</text>
+  <text x="1500" y="835">INNOVATE</text>
+</g>
 
-    <rect x="85" y="715" width="245" height="57"
-          rx="29" fill="#9668F5"/>
-
-    <text x="120" y="751"
-          fill="#09090B" font-weight="600">
-      Explore Projects  ↗
-    </text>
-
-    <rect x="350" y="715" width="185" height="57"
-          rx="29" fill="#141416"
-          stroke="#85858A" stroke-width="1.2"/>
-
-    <text x="385" y="751" fill="#E8E8EA">
-      LinkedIn  ↗
-    </text>
-
-    <rect x="555" y="715" width="175" height="57"
-          rx="29" fill="#141416"
-          stroke="#85858A" stroke-width="1.2"/>
-
-    <text x="590" y="751" fill="#E8E8EA">
-      Contact  ↗
-    </text>
-  </g>
-
-  <!-- ==================================
-       FOOTER
-  =================================== -->
-
-  <g font-family="Arial, sans-serif"
-     fill="#A5A5AA" font-size="16">
-
-    <text x="90" y="835">
-      BASED IN SRI LANKA
-    </text>
-
-    <circle cx="270" cy="830" r="3" fill="#A98AFF"/>
-
-    <text x="295" y="835">
-      BSc (Hons) ARTIFICIAL INTELLIGENCE @ SLIIT
-    </text>
-  </g>
-
-  <g font-family="monospace"
-     fill="#B9B9BE"
-     font-size="14"
-     letter-spacing="3">
-    <text x="1270" y="835">LEARN</text>
-    <text x="1360" y="835">·</text>
-    <text x="1390" y="835">BUILD</text>
-    <text x="1475" y="835">·</text>
-    <text x="1500" y="835">INNOVATE</text>
-  </g>
-
-  <!-- ==================================
-       ANIMATED SCANNING LINE
-  =================================== -->
-
-  <path d="M0 0H1600"
-        stroke="#A98AFF"
-        stroke-opacity=".16"
-        stroke-width="1">
-
-    <animate attributeName="d"
-      values="M0 160H1600;
-              M0 740H1600;
-              M0 160H1600"
-      dur="14s"
-      repeatCount="indefinite"/>
-  </path>
-
-  <rect x="0" y="0" width="1600" height="900"
-        fill="url(#texture)" opacity=".18"
-        pointer-events="none"/>
+<!-- ANIMATED SCANNING LINE -->
+<rect x="0" y="150" width="1600" height="1"
+      fill="#a98aff" opacity=".15">
+  <animate attributeName="y"
+           values="150;780;150"
+           dur="14s" repeatCount="indefinite"/>
+</rect>
 
 </svg>
